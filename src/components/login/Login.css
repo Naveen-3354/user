@@ -1,0 +1,88 @@
+body{
+    /* background-color: blanchedalmond; */
+}
+
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(diagonally,rgb(86, 240, 202),rgb(93, 209, 236));
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 30px #000;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.errors{
+    color: red;
+    font-size: 10px;
+    margin-left: 20px;
+}
+
+.user{
+    display: flex;
+}
+.user input{
+    margin-left: 20px;
+    border: none;
+    border-bottom: 1px solid rgb(152, 152, 152);
+}
+.user input:focus{
+    outline: none;
+    border-bottom: 3px solid #555;
+}
+
+.password{
+    display: flex;
+}
+.password input{
+    margin-left: 20px;
+    border: none;
+    border-bottom: 1px solid rgb(152, 152, 152);
+}
+.password input:focus{
+    outline: none;
+    border-bottom: 3px solid #555;
+}
+.password button{
+    background-color: transparent;
+    border: none;
+    color: grey;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.loginbutton{
+    display: flex;
+    justify-content: center;
+}
+.loginbutton button{
+    height: 30px;
+    padding: 5px;
+    border: 1px solid rgb(141, 140, 140);
+    border-radius: 5px;
+}
+.loginbutton button:hover{
+    background-color: grey;
+}
+
+.register{
+    padding: 10px;
+}
+
+.register button{
+    width: 70px;
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+.register button:hover{
+    background-color: grey;
+}
